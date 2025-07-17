@@ -78,3 +78,9 @@ calc.add(3, 4);
 calc.subtract(12, 2);
 calc.multiply(7, 7);
 calc.divide(25, 5);
+
+// Q9 返り値
+function remainder(x, y){
+  return x % y
+}
+console.log('5 を 3 で割った余りは' + remainder(5, 3) + 'です。');
