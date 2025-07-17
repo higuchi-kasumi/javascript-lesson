@@ -39,3 +39,14 @@ console.log(playerList[1].favorites[1]);
 // Q5 四則演算
 let ava = (playerList[0].age + playerList[1].age + playerList[2].age) / 3
 console.log (ava);
+
+// Q6 関数
+function sayHello (callback){
+  console.log('Hello');
+  callback();
+}
+sayHello(
+  function(){
+      console.log('World');
+  }
+);
