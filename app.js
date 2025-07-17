@@ -84,3 +84,6 @@ function remainder(x, y){
   return x % y
 }
 console.log('5 を 3 で割った余りは' + remainder(5, 3) + 'です。');
+
+// Q10 スコープ
+// 変数xは関数fooの中で定義されているためスコープは関数foo内ですが、スコープ外から変数xを参照しようとしてエラーになっている。
