@@ -50,3 +50,11 @@ sayHello(
       console.log('World');
   }
 );
+
+// Q7 メソッド
+user.birthday = '2000-09-27';
+console.log(user);
+user.sayHello = function (){
+  console.log('Hello！');
+}
+user.sayHello();
