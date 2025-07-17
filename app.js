@@ -92,3 +92,9 @@ console.log('5 を 3 で割った余りは' + remainder(5, 3) + 'です。');
 // Q1 標準組み込みオブジェクト
 let randam = Math.random();
 console.log(randam);
+
+// Q2 コールバック関数
+let alertmsg = function(){
+  alert("Hello World!");
+}
+setTimeout(alertmsg, 3000);
